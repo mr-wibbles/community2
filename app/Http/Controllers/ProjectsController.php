@@ -21,6 +21,7 @@ class ProjectsController extends Controller
         return view('projects.edit', ['projects' => $project]);
     }
 
+    
     public function create()
     {
         return view('projects.create');
