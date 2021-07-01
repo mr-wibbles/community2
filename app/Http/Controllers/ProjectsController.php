@@ -16,6 +16,7 @@ class ProjectsController extends Controller
         return view('projects.index', ['projects' => $projects]);
     }
 
+    
     public function edit(Projects $project)
     {
         return view('projects.edit', ['projects' => $project]);
